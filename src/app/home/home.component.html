@@ -1,0 +1,4 @@
+<div class="home-page">
+  <input class="home-search" type="text" [(ngModel)]="starString"><button (click)="updateStarPosition(starString)">Draw Star</button>
+  <map-component [starPosition]="starPosition"></map-component>
+</div>
